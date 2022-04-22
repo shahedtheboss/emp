@@ -1,0 +1,13 @@
+.carousel-item > a > img {
+  min-height: 200px;
+  max-height: 700px;
+  min-width: 350px;
+  max-width: 70%;
+}
+
+.carousel-indicators {
+  display: none;
+}
+.carousel {
+  background-color: black;
+}

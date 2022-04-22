@@ -1,0 +1,26 @@
+footer {
+  background-color: black;
+  margin-top: auto;
+}
+
+.rules {
+  background-color: rgb(0, 0, 0);
+}
+
+.rules > p {
+  margin: 15px;
+  font-size: small;
+  color: white;
+}
+
+.footer-contact p {
+  display: flex;
+  margin: 15px;
+  font-size: small;
+  color: gray;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}

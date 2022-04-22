@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 0px #000000;
+  width: 350px;
+  height: 500px;
+}
+
+.plink > button {
+  outline: none;
+  padding: 10px;
+  border: 3px solid rgb(153, 152, 152);
+  background-color: yellowgreen;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 500;
+  transition: all 0.8s;
+}
+
+.plink > button:hover {
+  color: white;
+  background-color: darkcyan;
+  border: 3px solid black;
+}
+
+.product > img {
+  width: 70%;
+}
+
+.price {
+  font-size: small;
+  font-weight: 1000;
+}

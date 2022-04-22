@@ -1,0 +1,39 @@
+body {
+  position: absolute;
+}
+.errmsg {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  font-size: 80px;
+  color: red;
+  flex-wrap: wrap;
+}
+
+.pro {
+  border-bottom: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pro > img {
+  max-width: 400px;
+}
+
+.sub {
+  width: 150px;
+  height: 70px;
+  font-size: 30px;
+}
+
+.itemName {
+  font-size: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .errmsg {
+    position: absolute;
+  }
+}

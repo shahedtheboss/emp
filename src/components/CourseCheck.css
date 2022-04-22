@@ -1,0 +1,30 @@
+.pro2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.pro2 > button {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(179, 255, 0);
+  border-radius: 10px;
+  border: 3px solid rgb(255, 0, 0);
+  font-size: 20px;
+  color: blue;
+  font-weight: 600;
+  transition: all 0.8s;
+  outline: none;
+}
+
+.pro2 > button:hover {
+  border: 7px solid greenyellow;
+  background-color: rgb(255, 0, 179);
+  color: black;
+}
+
+.image {
+  min-height: 300px;
+  min-width: 200px;
+}

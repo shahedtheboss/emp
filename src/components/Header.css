@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.header_app {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 50px;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+
+.logo-image {
+  height: 100px;
+  width: 150px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.first-head {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-head > .link > button {
+  color: white;
+  background-color: rgb(49, 49, 49);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.5s;
+  margin: 10px;
+}
+
+.first-head > .link > button:hover {
+  color: black;
+  background-color: rgb(231, 255, 12);
+}
+
+@media screen and (max-width: 700px) {
+  .header_app {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .logo-image {
+    height: 80px;
+    width: 100px;
+  }
+  .first-head > .link > button {
+    font-size: 10px;
+    padding: 5px;
+    max-height: 50px;
+    margin: 5px;
+  }
+}
